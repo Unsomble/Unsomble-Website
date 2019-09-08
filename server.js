@@ -1,6 +1,3 @@
-// this shit was made by Evil Factory https://steamcommunity.com/id/programador_gay/
-// im dont like const fuck you
-
 //config
 
 const SERVER_PORT = 80
