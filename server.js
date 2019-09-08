@@ -22,7 +22,7 @@ app.use(express.static(CLIENT_DIR));
 var Warnings = 0;
 
 
-console.log("\x1b[36m","Server Starting... \x1b[37m");
+console.log("\x1b[36m","Unsomble Starting... \x1b[37m");
 
 
 var walk = function(dir, done) {
@@ -56,7 +56,6 @@ function getExtension(filename) {
 }
 
 process.stdout.write("\x1b[36m Checking clientside files... \x1b[37m");
-//console.log("\x1b[36m","Checking clientside files... \x1b[37m");
 
 fs.stat(CLIENT_DIR, function(err) {
     if (err) {
@@ -97,9 +96,9 @@ if(getExtension(results[file]) == "js"){
 }
 
 if(Warnings > 0){
-console.log("\x1b[33m","Server up running! With "+Warnings+" warning(s)! press ctrl + c to stop \x1b[37m");
+console.log("\x1b[33m","Unsomble Website running! With "+Warnings+" warning(s)! press ctrl + c to stop \x1b[37m");
 }else{
-console.log("\x1b[32m","Server up running! all fine! press ctrl + c to stop \x1b[37m");
+console.log("\x1b[32m","Unsomble Website running! all fine! press ctrl + c to stop \x1b[37m");
 }
 
 });
