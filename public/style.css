@@ -1,0 +1,12 @@
+* {
+    list-style: none;
+}
+
+header ul{
+    display: inline-block;
+}
+
+header ul li a img {
+    width: 75px;
+    height: 75px;
+}
